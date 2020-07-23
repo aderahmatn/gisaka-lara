@@ -5,12 +5,19 @@
             <div class="col-md-12 d-flex align-items-center justify-content-around py-3">
                 <p class="text-contact">Hubungi kami</p>
                 <p class="text-contact-bold">0877-7645-1664</p>
-                <button class="btn-contact ml-5" data-aos="fade-left" data-aos-duration="1500">
-                    <i class="fas fa-phone-alt"></i> Hubungi kami
-                </button>
-                <button class="btn-contact ml-5" data-aos="fade-left" data-aos-duration="1500" data-aos-delay="200">
-                    <i class="fas fa-clock"></i> Jadwalkan telepon
-                </button>
+                <div class="w-4">
+
+                    <button class="btn-primary-gs  ml-5" data-aos="fade-left" data-aos-duration="1500">
+                        <i class="fas fa-phone-alt"></i> Hubungi kami
+                    </button>
+                </div>
+                <div class="w-2">
+
+                    <button class="btn-primary-gs  ml-5" data-aos="fade-left" data-aos-duration="1500"
+                        data-aos-delay="200">
+                        <i class="fas fa-clock"></i> Jadwalkan telepon
+                    </button>
+                </div>
             </div>
         </div>
     </div>

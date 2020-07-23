@@ -25,11 +25,11 @@
                         href="/blog">Blog</a>
                 </li>
                 <li class="nav-item mr-3">
-                    <a class="nav-link{{ request()->is('blog') ? ' active' : '' }}"
+                    <a class="nav-link{{ request()->is('bantuan') ? ' active' : '' }}"
                         href="/bantuan">Bantuan</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link{{ request()->is('blog') ? ' active' : '' }}"
+                    <a class="nav-link{{ request()->is('hubungi-kami') ? ' active' : '' }}"
                         href="/hubungi-kami">Hubungi kami</a>
                 </li>
                 <li class="nav-item">
@@ -37,11 +37,11 @@
                     </span>
                 </li>
                 <li class="nav-item mr-3 font-weight-normal">
-                    <a class="nav-link{{ request()->is('blog') ? ' active' : '' }}"
+                    <a class="nav-link{{ request()->is('daftar') ? ' active' : '' }}"
                         href="/daftar">Daftar </a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link{{ request()->is('blog') ? ' active' : '' }}"
+                    <a class="nav-link{{ request()->is('dashboard') ? ' active' : '' }}"
                         href="/dashboard">Akun saya</a>
                 </li>
             </ul>
