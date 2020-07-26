@@ -156,7 +156,7 @@
 
 .btn-primary-gs:hover::before {
     opacity: 1;
-
+    color: white;
 }
 
 .btn-primary-gs:active::before {
